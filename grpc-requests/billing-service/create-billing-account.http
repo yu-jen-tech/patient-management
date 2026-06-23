@@ -1,0 +1,8 @@
+### Create a Patient Billing Account
+GRPC localhost:9001/BillingService/CreateBillingAccount
+
+{
+  "patientId": "12345",
+  "name": "John Doe",
+  "email": "johndoe@example.com"
+}
